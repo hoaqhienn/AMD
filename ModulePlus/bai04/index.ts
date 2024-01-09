@@ -1,3 +1,6 @@
+/**
+ * This file contains code for creating an order and performing operations on it.
+ */
 import { Product } from "./Product";
 import { Order } from "./Order";
 

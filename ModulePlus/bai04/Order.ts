@@ -1,6 +1,9 @@
 import { OrderDetail } from "./OrderDetail";
 import { Product } from "./Product";
 
+/**
+ * Represents an order.
+ */
 export class Order {
   private orderID: number;
   private orderDate: Date;
@@ -52,8 +55,7 @@ export class Order {
         "Thành tiền": orderDetail.calcTotalPrice(),
       };
     });
-  
+
     console.table(tableData);
   }
-  
 }
